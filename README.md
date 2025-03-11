@@ -1,0 +1,2 @@
+# Conway's game of life!
+I decided to make this because I made this in kotlin a few weeks ago and I decided that REAL men only use c.... so I made it using raylib and c. I fucking suck at memory management. No, I didn't compile anything because that seems like a pain in the ass at the current moment.
