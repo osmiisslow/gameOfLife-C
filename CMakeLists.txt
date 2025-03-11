@@ -8,5 +8,5 @@ set(CMAKE_C_FLAGS "-lraylib -lGL -lm -lpthread -ldl -lrt -lX11")
 include_directories(.)
 
 add_executable(gameOfLife
-        main.c
-        logic.h)
+        src/main.c
+        src/logic.h)
