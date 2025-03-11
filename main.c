@@ -5,11 +5,13 @@
 #include <raylib.h>
 #include "logic.h"
 
+//size of the cellboard itself.
 #define SIZE 100
+//window width and height
 #define WIDTH 800
 #define HEIGHT 800
 
-
+// helper function to draw the board, using raylib
 void draw_board(Board *cell_board) {
     int size = cell_board->size;
 
@@ -47,7 +49,7 @@ int main(void) {
     }
 
     CloseWindow();
-
+    //free the array that the board contains, because memory leaks fucking blow and I already made that mistake thrice now.
     free_cells(cell_board.cells, cell_board.size);
 
     return 0;
